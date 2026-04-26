@@ -1,25 +1,25 @@
 class Arta < Formula
   desc "Terminal workspace manager for concurrent AI coding agent sessions (tmux/zellij)"
   homepage "https://github.com/cjurjiu/arta"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cjurjiu/arta/releases/download/v0.3.0/arta-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "1070b431d6ee57536a2e9e11dc3b9d2e26b3b39de8d0736683989a1484464661"
+      url "https://github.com/cjurjiu/arta/releases/download/v0.4.0/arta-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "4d35b9dbc5e9589998d992b51f936767fbab3e2884a864d589ef262878f85141"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cjurjiu/arta/releases/download/v0.3.0/arta-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "972abf9dcb58e62f16292f39883064944305604598fcf68629647d0803ce2b37"
+      url "https://github.com/cjurjiu/arta/releases/download/v0.4.0/arta-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "878332e155b71af352b36afbf28c04eab07f59b36fb27f5233814d0760a37111"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/cjurjiu/arta/releases/download/v0.3.0/arta-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c656c2eebb3f24f5822ad39ecdd2590a33622c817658264a714fe2bee105d047"
+      url "https://github.com/cjurjiu/arta/releases/download/v0.4.0/arta-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1ba284f9c8ef5e804283672d20c12561b6f45bc720309c56e5e6ac7aeed2de9a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cjurjiu/arta/releases/download/v0.3.0/arta-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "67759074ae552b8675688141391c7a16ec1da37c85d5f368a4a28a6b4b74abbc"
+      url "https://github.com/cjurjiu/arta/releases/download/v0.4.0/arta-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7a39e4d3ab769f018d08b1b77e8a459c1afeb478a988e5495ab9fe846116c7c6"
     end
   end
   license "MIT"
